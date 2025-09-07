@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Local Font Declarations */
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('../assets/Baloo_2/static/Baloo2-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('../assets/Baloo_2/static/Baloo2-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('../assets/Baloo_2/static/Baloo2-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('../assets/Baloo_2/static/Baloo2-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* GpavbhaG Restaurant Brand Colors */
+:root {
+  /* Primary Brand Color - Red */
+  --color-primary: #E53935;
+  --color-primary-hover: #C62828;
+  --color-primary-light: #FFEBEE;
+  
+  /* Secondary Color - Golden Brown */
+  --color-secondary: #D19A66;
+  --color-secondary-hover: #BF8654;
+  --color-secondary-light: #F5E6D3;
+  
+  /* Tertiary Color - Green */
+  --color-tertiary: #43A047;
+  --color-tertiary-hover: #388E3C;
+  --color-tertiary-light: #E8F5E8;
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF;
+  --color-charcoal: #212121;
+  --color-gray-light: #F5F5F5;
+  --color-gray-medium: #9E9E9E;
+}
+
+/* Dark mode colors */
+.dark {
+  /* Override background colors for dark mode */
+  --color-white: #1a1a1a;
+  --color-charcoal: #ffffff;
+  --color-gray-light: #2a2a2a;
+  --color-gray-medium: #6b7280;
+  
+  /* Adjust light colors for dark mode */
+  --color-primary-light: #2a1a1a;
+  --color-secondary-light: #2a251f;
+  --color-tertiary-light: #1a2a1a;
+}
+
+/* Global dark mode styles */
+.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Dark mode for specific components */
+.dark .bg-white {
+  background-color: #1a1a1a !important;
+}
+
+.dark .bg-neutral-gray-light {
+  background-color: #2a2a2a !important;
+}
+
+.dark .text-neutral-charcoal {
+  color: #ffffff !important;
+}
+
+.dark .text-neutral-gray-medium {
+  color: #6b7280 !important;
+}
+
+.dark .border-neutral-gray-light {
+  border-color: #374151 !important;
+}
+
+.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Prevent horizontal scrolling on mobile */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for horizontal scrolling sections */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}

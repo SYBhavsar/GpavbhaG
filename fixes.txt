@@ -1,0 +1,37 @@
+  🚨 CRITICAL ISSUES (Fix First)
+
+  1. ✅ Fix contrast issues - replace text-neutral-gray-medium with text-neutral-charcoal
+  2. ✅ Standardize heading styles across all pages (size, color, font-class)
+  3. ✅ Remove artificial loading delays from static content (MenuPage, etc.)
+
+  🎨 COLOR SYSTEM OVERHAUL
+
+  4. ✅ Fix color system chaos - standardize to use only defined brand colors
+  5. ✅ Fix broken color references - replace primary-orange/secondary-green with primary/secondary
+  6. ✅ Fix opacity usage - replace opacity-based text with proper contrast colors
+
+  📐 LAYOUT CONSISTENCY
+
+  7. ✅ Unify container widths - use consistent max-w-7xl mx-auto everywhere
+  8. ✅ Fix spacing inconsistencies - create consistent py/px patterns across sections
+  9. ✅ Standardize shadow usage - consistent shadow-md/lg/xl patterns
+
+  🧩 COMPONENT STANDARDIZATION
+
+  10. ✅ Standardize button implementations - use Button component with consistent variants
+  11. ✅ Unify card designs - use consistent Card component or standardize custom styling
+  12. ✅ Add missing action buttons - ensure consistent buttons across menu displays
+
+  ✨ PREMIUM UX IMPROVEMENTS
+
+  13. ✅ Create proper visual hierarchy - implement consistent typography scale
+  14. ✅ Fix accessibility issues - improve focus states and color-only information
+  15. ✅ Improve micro-interactions - add consistent hover states and transitions
+
+ 16. ✅ Fix missing Add to Cart buttons in HomePage menu section
+    - Currently homepage menu only has "View Details" but regular MenuCard has both buttons
+  17. ✅ Remove scrollbar from offers section to match homepage layout preference
+    - You mentioned not wanting scrollbars when we have full screen width available
+  18. ✅ Fix font inconsistencies - ensure all components use consistent Poppins implementation
+    - Make sure the Poppins font system is properly applied everywhere
+
